@@ -14,3 +14,4 @@ class HomePage(BasePage):
         wait = WebDriverWait(self.driver,30)
         element = wait.until(EC.element_to_be_clickable(HomePageLocators.ZALOGUJ_BTN))
         element.click()
+        
