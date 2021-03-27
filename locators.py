@@ -6,3 +6,8 @@ class HomePageLocators():
 
 class LoginPageLocators():
     REGISTER_BTN = (By.XPATH, '//*[@class="sign-in-form-table"]/tbody/tr[7]/td[2]/a[2]')
+
+class RegistrationPageLocators():
+    NAME_INPUT = (By.CSS_SELECTOR, '#Name_51')
+    SURNAME_INPUT = (By.NAME, 'Surname_51')
+
